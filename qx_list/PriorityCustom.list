@@ -1,0 +1,31 @@
+# 最高优先级自定义规则
+# > GitHub
+#https://github.com/gfwlist
+#https://github.com/shadowsocks
+#https://github.com/v2ray
+#https://github.com/trojan-gfw
+#https://github.com/coolsnowwolf
+#https://github.com/
+#https://github.com/
+#https://github.com/getlantern
+DOMAIN-SUFFIX,v2fly.org,PROXY
+DOMAIN-SUFFIX,trojan-gfw.github.io,PROXY
+DOMAIN-SUFFIX,limbopro.github.io,PROXY
+DOMAIN-SUFFIX,toutyrater.github.io,PROXY
+DOMAIN-SUFFIX,cthlo.github.io,PROXY
+DOMAIN-SUFFIX,hahaxixi.github.io,PROXY
+DOMAIN-SUFFIX,haoel.github.io,PROXY
+DOMAIN-SUFFIX,onionhacker.github.io,PROXY
+DOMAIN-SUFFIX,rg3.github.io,PROXY
+DOMAIN-SUFFIX,sikaozhe1997.github.io,PROXY
+DOMAIN-SUFFIX,sodatea.github.io,PROXY
+DOMAIN-SUFFIX,terminus2049.github.io,PROXY
+DOMAIN-SUFFIX,wsgzao.github.io,PROXY
+DOMAIN-SUFFIX,aisex.com,PROXY
+# > Google Translate
+USER-AGENT,com.google.Translate*,DIRECT
+USER-AGENT,GoogleTranslate*,DIRECT
+DOMAIN,translate.google.cn,DIRECT
+DOMAIN,translate.googleapis.com,DIRECT
+#DOMAIN,play.googleapis.com,DIRECT
+#DOMAIN,www.googleapis.com,DIRECT

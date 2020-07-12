@@ -1,0 +1,8 @@
+# > Apple News
+DOMAIN,gateway.icloud.com,AppleNews
+DOMAIN,gspe1-ssl.ls.apple.com,AppleNews
+DOMAIN-SUFFIX,apple.news,AppleNews
+DOMAIN,news-client.apple.com,AppleNews
+DOMAIN,news-edge.apple.com,AppleNews
+DOMAIN,news-events.apple.com,AppleNews
+DOMAIN,apple.comscoreresearch.com,AppleNews
