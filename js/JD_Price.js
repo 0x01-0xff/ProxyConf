@@ -1,13 +1,14 @@
 /*
 README：https://github.com/yichahucha/surge/tree/master
 QX:
-^https?://api\.m\.jd\.com/client\.action\?functionId=(wareBusiness|serverConfig) url script-response-body JD_Price.js
+^https?:\/\/api\.m\.jd\.com\/client\.action\?functionId=(?:wareBusiness|serverConfig|basicConfig) url script-response-body JD_Price.js
 [MITM]
 hostname = api.m.jd.com
 */
 
 const path1 = "serverConfig";
 const path2 = "wareBusiness";
+const path3 = "basicConfig";
 const consolelog = false;
 const url = $request.url;
 const body = $response.body;
@@ -16,6 +17,15 @@ const $tool = tool();
 if (url.indexOf(path1) != -1) {
     let obj = JSON.parse(body);
     delete obj.serverConfig.httpdns;
+    delete obj.serverConfig.dnsvip;
+    delete obj.serverConfig.dnsvip_v6;
+    $done({ body: JSON.stringify(obj) });
+}
+
+if (url.indexOf(path3) != -1) {
+    let obj = JSON.parse(body);
+    delete obj.data.JDHttpToolKit.httpdns;
+    delete obj.data.JDHttpToolKit.dnsvipV6;
     $done({ body: JSON.stringify(obj) });
 }
 
