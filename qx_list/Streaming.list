@@ -237,16 +237,16 @@ USER-AGENT,TaiwanGood*,Streaming
 DOMAIN-SUFFIX,skyking.com.tw,Streaming
 DOMAIN,hamifans.emome.net,Streaming
 # > TikTok
-USER-AGENT,TikTok*,Streaming
-DOMAIN-SUFFIX,byteoversea.com,Streaming
-DOMAIN-SUFFIX,ibytedtos.com,Streaming
-DOMAIN-SUFFIX,muscdn.com,Streaming
-DOMAIN-SUFFIX,musical.ly,Streaming
-DOMAIN-SUFFIX,tiktok.com,Streaming
-DOMAIN-SUFFIX,tik-tokapi.com,Streaming
-DOMAIN-SUFFIX,tiktokcdn.com,Streaming
-DOMAIN-SUFFIX,tiktokv.com,Streaming
-DOMAIN-KEYWORD,-tiktokcdn-com,Streaming
+#USER-AGENT,TikTok*,Streaming
+#DOMAIN-SUFFIX,byteoversea.com,Streaming
+#DOMAIN-SUFFIX,ibytedtos.com,Streaming
+#DOMAIN-SUFFIX,muscdn.com,Streaming
+#DOMAIN-SUFFIX,musical.ly,Streaming
+#DOMAIN-SUFFIX,tiktok.com,Streaming
+#DOMAIN-SUFFIX,tik-tokapi.com,Streaming
+#DOMAIN-SUFFIX,tiktokcdn.com,Streaming
+#DOMAIN-SUFFIX,tiktokv.com,Streaming
+#DOMAIN-KEYWORD,-tiktokcdn-com,Streaming
 # > Twitch
 DOMAIN-SUFFIX,jtvnw.net,Streaming
 DOMAIN-SUFFIX,ttvnw.net,Streaming
