@@ -1,20 +1,25 @@
 # (DNS Cache Pollution)
+# > Apple
+DOMAIN,testflight.apple.com,BeBlocked
 # > Google
 DOMAIN-SUFFIX,appspot.com,BeBlocked
 DOMAIN-SUFFIX,blogger.com,BeBlocked
 DOMAIN-SUFFIX,getoutline.org,BeBlocked
 DOMAIN-SUFFIX,gvt0.com,BeBlocked
-DOMAIN-SUFFIX,gvt1.com,BeBlocked
 DOMAIN-SUFFIX,gvt3.com,BeBlocked
 DOMAIN-SUFFIX,xn--ngstr-lra8j.com,BeBlocked
+DOMAIN-SUFFIX,ytimg.com,BeBlocked
 DOMAIN-KEYWORD,google,BeBlocked
-DOMAIN-KEYWORD,blogspot,BeBlocked
+DOMAIN-KEYWORD,.blogspot.,BeBlocked
 # > Microsoft
+DOMAIN-SUFFIX,aka.ms,BeBlocked
 DOMAIN-SUFFIX,onedrive.live.com,BeBlocked
-DOMAIN,az416426.vo.msecnd.ne,BeBlocked
-DOMAIN,az668014.vo.msecnd.ne,BeBlocked
+DOMAIN,az416426.vo.msecnd.net,BeBlocked
+DOMAIN,az668014.vo.msecnd.net,BeBlocked
 # > Facebook
 DOMAIN-SUFFIX,cdninstagram.com,BeBlocked
+DOMAIN-SUFFIX,facebook.com,BeBlocked
+DOMAIN-SUFFIX,facebook.net,BeBlocked
 DOMAIN-SUFFIX,fb.com,BeBlocked
 DOMAIN-SUFFIX,fb.me,BeBlocked
 DOMAIN-SUFFIX,fbaddins.com,BeBlocked
@@ -29,7 +34,6 @@ DOMAIN-SUFFIX,oculuscdn.com,BeBlocked
 DOMAIN-SUFFIX,rocksdb.org,BeBlocked
 DOMAIN-SUFFIX,whatsapp.com,BeBlocked
 DOMAIN-SUFFIX,whatsapp.net,BeBlocked
-DOMAIN-KEYWORD,facebook,BeBlocked
 # > Twitter
 DOMAIN-SUFFIX,pscp.tv,BeBlocked
 DOMAIN-SUFFIX,periscope.tv,BeBlocked
@@ -37,8 +41,8 @@ DOMAIN-SUFFIX,t.co,BeBlocked
 DOMAIN-SUFFIX,twimg.co,BeBlocked
 DOMAIN-SUFFIX,twimg.com,BeBlocked
 DOMAIN-SUFFIX,twitpic.com,BeBlocked
+DOMAIN-SUFFIX,twitter.com,BeBlocked
 DOMAIN-SUFFIX,vine.co,BeBlocked
-DOMAIN-KEYWORD,twitter,BeBlocked
 # > Telegram
 DOMAIN-SUFFIX,telegra.ph,BeBlocked
 DOMAIN-SUFFIX,telegram.org,BeBlocked
@@ -46,6 +50,7 @@ IP-CIDR,91.108.4.0/22,BeBlocked
 IP-CIDR,91.108.8.0/22,BeBlocked
 IP-CIDR,91.108.12.0/22,BeBlocked
 IP-CIDR,91.108.16.0/22,BeBlocked
+IP-CIDR,91.108.20.0/22,BeBlocked
 IP-CIDR,91.108.56.0/22,BeBlocked
 IP-CIDR,149.154.160.0/20,BeBlocked
 IP6-CIDR,2001:b28:f23d::/48,BeBlocked
@@ -60,11 +65,15 @@ IP-CIDR,103.2.30.0/23,BeBlocked
 IP-CIDR,125.209.208.0/20,BeBlocked
 IP-CIDR,147.92.128.0/17,BeBlocked
 IP-CIDR,203.104.144.0/21,BeBlocked
+# > Amazon
+DOMAIN-SUFFIX,amazon.co.jp,BeBlocked
+DOMAIN,d3c33hcgiwev3.cloudfront.net,BeBlocked
+DOMAIN,payments-jp.amazon.com,BeBlocked
+DOMAIN,s3-ap-northeast-1.amazonaws.com,BeBlocked
+DOMAIN,s3-ap-southeast-2.amazonaws.com,BeBlocked
 # > Akamai
 DOMAIN,a248.e.akamai.net,BeBlocked
 DOMAIN,a771.dscq.akamai.net,BeBlocked
-# > Amazon CloudFront
-DOMAIN,d3c33hcgiwev3.cloudfront.net,BeBlocked
 # > Others
 DOMAIN-SUFFIX,4shared.com,BeBlocked
 DOMAIN-SUFFIX,9cache.com,BeBlocked
@@ -72,7 +81,7 @@ DOMAIN-SUFFIX,9gag.com,BeBlocked
 DOMAIN-SUFFIX,abc.com,BeBlocked
 DOMAIN-SUFFIX,abc.net.au,BeBlocked
 DOMAIN-SUFFIX,abebooks.com,BeBlocked
-DOMAIN-SUFFIX,amazon.co.jp,BeBlocked
+DOMAIN-SUFFIX,ao3.org,BeBlocked
 DOMAIN-SUFFIX,apigee.com,BeBlocked
 DOMAIN-SUFFIX,apkcombo.com,BeBlocked
 DOMAIN-SUFFIX,apk-dl.com,BeBlocked
@@ -83,6 +92,7 @@ DOMAIN-SUFFIX,apkpure.com,BeBlocked
 DOMAIN-SUFFIX,aptoide.com,BeBlocked
 DOMAIN-SUFFIX,archive.is,BeBlocked
 DOMAIN-SUFFIX,archive.org,BeBlocked
+DOMAIN-SUFFIX,archiveofourown.com,BeBlocked
 DOMAIN-SUFFIX,archiveofourown.org,BeBlocked
 DOMAIN-SUFFIX,arte.tv,BeBlocked
 DOMAIN-SUFFIX,artstation.com,BeBlocked
@@ -98,6 +108,7 @@ DOMAIN-SUFFIX,behance.net,BeBlocked
 DOMAIN-SUFFIX,bibox.com,BeBlocked
 DOMAIN-SUFFIX,biggo.com.tw,BeBlocked
 DOMAIN-SUFFIX,binance.com,BeBlocked
+DOMAIN-SUFFIX,bit.ly,BeBlocked
 DOMAIN-SUFFIX,bitcointalk.org,BeBlocked
 DOMAIN-SUFFIX,bitfinex.com,BeBlocked
 DOMAIN-SUFFIX,bitmex.com,BeBlocked
@@ -159,7 +170,6 @@ DOMAIN-SUFFIX,earthcam.com,BeBlocked
 DOMAIN-SUFFIX,ebookservice.tw,BeBlocked
 DOMAIN-SUFFIX,economist.com,BeBlocked
 DOMAIN-SUFFIX,edgecastcdn.net,BeBlocked
-DOMAIN-SUFFIX,edu,BeBlocked
 DOMAIN-SUFFIX,edx-cdn.org,BeBlocked
 DOMAIN-SUFFIX,elpais.com,BeBlocked
 DOMAIN-SUFFIX,enanyang.my,BeBlocked
@@ -184,12 +194,15 @@ DOMAIN-SUFFIX,ft.com,BeBlocked
 DOMAIN-SUFFIX,ftchinese.com,BeBlocked
 DOMAIN-SUFFIX,ftimg.net,BeBlocked
 DOMAIN-SUFFIX,gate.io,BeBlocked
+DOMAIN-SUFFIX,genius.com,BeBlocked
 DOMAIN-SUFFIX,getlantern.org,BeBlocked
 DOMAIN-SUFFIX,getsync.com,BeBlocked
+DOMAIN-SUFFIX,github.com,BeBlocked
+DOMAIN-SUFFIX,github.io,BeBlocked
+DOMAIN-SUFFIX,githubusercontent.com,BeBlocked
 DOMAIN-SUFFIX,globalvoices.org,BeBlocked
 DOMAIN-SUFFIX,goo.ne.jp,BeBlocked
 DOMAIN-SUFFIX,goodreads.com,BeBlocked
-DOMAIN-SUFFIX,gov,BeBlocked
 DOMAIN-SUFFIX,gov.tw,BeBlocked
 DOMAIN-SUFFIX,greatfire.org,BeBlocked
 DOMAIN-SUFFIX,gumroad.com,BeBlocked
@@ -203,12 +216,14 @@ DOMAIN-SUFFIX,hkej.com,BeBlocked
 DOMAIN-SUFFIX,hket.com,BeBlocked
 DOMAIN-SUFFIX,hootsuite.com,BeBlocked
 DOMAIN-SUFFIX,hudson.org,BeBlocked
+DOMAIN-SUFFIX,huffpost.com,BeBlocked
 DOMAIN-SUFFIX,hyread.com.tw,BeBlocked
 DOMAIN-SUFFIX,ibtimes.com,BeBlocked
 DOMAIN-SUFFIX,i-cable.com,BeBlocked
 DOMAIN-SUFFIX,icij.org,BeBlocked
 DOMAIN-SUFFIX,icoco.com,BeBlocked
 DOMAIN-SUFFIX,imgur.com,BeBlocked
+DOMAIN-SUFFIX,independent.co.uk,BeBlocked
 DOMAIN-SUFFIX,initiummall.com,BeBlocked
 DOMAIN-SUFFIX,inoreader.com,BeBlocked
 DOMAIN-SUFFIX,insecam.org,BeBlocked
@@ -227,6 +242,7 @@ DOMAIN-SUFFIX,kakao.com,BeBlocked
 DOMAIN-SUFFIX,kakaocorp.com,BeBlocked
 DOMAIN-SUFFIX,kik.com,BeBlocked
 DOMAIN-SUFFIX,kingkong.com.tw,BeBlocked
+DOMAIN-SUFFIX,knowyourmeme.com,BeBlocked
 DOMAIN-SUFFIX,kobo.com,BeBlocked
 DOMAIN-SUFFIX,kobobooks.com,BeBlocked
 DOMAIN-SUFFIX,kodingen.com,BeBlocked
@@ -246,7 +262,6 @@ DOMAIN-SUFFIX,maying.co,BeBlocked
 DOMAIN-SUFFIX,medium.com,BeBlocked
 DOMAIN-SUFFIX,mega.nz,BeBlocked
 DOMAIN-SUFFIX,mergersandinquisitions.com,BeBlocked
-DOMAIN-SUFFIX,mil,BeBlocked
 DOMAIN-SUFFIX,mingpao.com,BeBlocked
 DOMAIN-SUFFIX,mixi.jp,BeBlocked
 DOMAIN-SUFFIX,mobile01.com,BeBlocked
@@ -256,18 +271,20 @@ DOMAIN-SUFFIX,myspacecdn.com,BeBlocked
 DOMAIN-SUFFIX,nanyang.com,BeBlocked
 DOMAIN-SUFFIX,nationalinterest.org,BeBlocked
 DOMAIN-SUFFIX,naver.com,BeBlocked
+DOMAIN-SUFFIX,nbcnews.com,BeBlocked
+DOMAIN-SUFFIX,ndr.de,BeBlocked
 DOMAIN-SUFFIX,neowin.net,BeBlocked
 DOMAIN-SUFFIX,newstapa.org,BeBlocked
 DOMAIN-SUFFIX,nexitally.com,BeBlocked
 DOMAIN-SUFFIX,nhk.or.jp,BeBlocked
 DOMAIN-SUFFIX,nii.ac.jp,BeBlocked
 DOMAIN-SUFFIX,nikkei.com,BeBlocked
+DOMAIN-SUFFIX,nitter.net,BeBlocked
 DOMAIN-SUFFIX,nofile.io,BeBlocked
 DOMAIN-SUFFIX,notion.so,BeBlocked
 DOMAIN-SUFFIX,now.com,BeBlocked
 DOMAIN-SUFFIX,nrk.no,BeBlocked
 DOMAIN-SUFFIX,nuget.org,BeBlocked
-DOMAIN-SUFFIX,nyaa.si,BeBlocked
 DOMAIN-SUFFIX,nyaa.si,BeBlocked
 DOMAIN-SUFFIX,nyt.com,BeBlocked
 DOMAIN-SUFFIX,nytchina.com,BeBlocked
@@ -289,6 +306,7 @@ DOMAIN-SUFFIX,pbxes.com,BeBlocked
 DOMAIN-SUFFIX,pcdvd.com.tw,BeBlocked
 DOMAIN-SUFFIX,pchome.com.tw,BeBlocked
 DOMAIN-SUFFIX,pcloud.com,BeBlocked
+DOMAIN-SUFFIX,peing.net,BeBlocked
 DOMAIN-SUFFIX,picacomic.com,BeBlocked
 DOMAIN-SUFFIX,pinimg.com,BeBlocked
 DOMAIN-SUFFIX,pixiv.net,BeBlocked
@@ -307,8 +325,10 @@ DOMAIN-SUFFIX,pureapk.com,BeBlocked
 DOMAIN-SUFFIX,quora.com,BeBlocked
 DOMAIN-SUFFIX,quoracdn.net,BeBlocked
 DOMAIN-SUFFIX,qz.com,BeBlocked
+DOMAIN-SUFFIX,radio.garden,BeBlocked
 DOMAIN-SUFFIX,rakuten.co.jp,BeBlocked
 DOMAIN-SUFFIX,rarbgprx.org,BeBlocked
+DOMAIN-SUFFIX,reabble.com,BeBlocked
 DOMAIN-SUFFIX,readingtimes.com.tw,BeBlocked
 DOMAIN-SUFFIX,readmoo.com,BeBlocked
 DOMAIN-SUFFIX,redbubble.com,BeBlocked
@@ -328,14 +348,17 @@ DOMAIN-SUFFIX,seatguru.com,BeBlocked
 DOMAIN-SUFFIX,shadowsocks.org,BeBlocked
 DOMAIN-SUFFIX,shindanmaker.com,BeBlocked
 DOMAIN-SUFFIX,shopee.tw,BeBlocked
+DOMAIN-SUFFIX,sina.com.hk,BeBlocked
 DOMAIN-SUFFIX,slideshare.net,BeBlocked
 DOMAIN-SUFFIX,softfamous.com,BeBlocked
+DOMAIN-SUFFIX,spiegel.de,BeBlocked
 DOMAIN-SUFFIX,ssrcloud.org,BeBlocked
 DOMAIN-SUFFIX,startpage.com,BeBlocked
 DOMAIN-SUFFIX,steamcommunity.com,BeBlocked
 DOMAIN-SUFFIX,steemit.com,BeBlocked
 DOMAIN-SUFFIX,steemitwallet.com,BeBlocked
 DOMAIN-SUFFIX,straitstimes.com,BeBlocked
+DOMAIN-SUFFIX,streamable.com,BeBlocked
 DOMAIN-SUFFIX,streema.com,BeBlocked
 DOMAIN-SUFFIX,t66y.com,BeBlocked
 DOMAIN-SUFFIX,tapatalk.com,BeBlocked
@@ -347,6 +370,7 @@ DOMAIN-SUFFIX,theguardian.com,BeBlocked
 DOMAIN-SUFFIX,theinitium.com,BeBlocked
 DOMAIN-SUFFIX,themoviedb.org,BeBlocked
 DOMAIN-SUFFIX,thetvdb.com,BeBlocked
+DOMAIN-SUFFIX,time.com,BeBlocked
 DOMAIN-SUFFIX,tineye.com,BeBlocked
 DOMAIN-SUFFIX,tiny.cc,BeBlocked
 DOMAIN-SUFFIX,tinyurl.com,BeBlocked
@@ -362,6 +386,7 @@ DOMAIN-SUFFIX,uptodown.com,BeBlocked
 DOMAIN-SUFFIX,urbandictionary.com,BeBlocked
 DOMAIN-SUFFIX,ustream.tv,BeBlocked
 DOMAIN-SUFFIX,uwants.com,BeBlocked
+DOMAIN-SUFFIX,v2fly.org,BeBlocked
 DOMAIN-SUFFIX,v2ray.com,BeBlocked
 DOMAIN-SUFFIX,viber.com,BeBlocked
 DOMAIN-SUFFIX,videopress.com,BeBlocked
@@ -409,15 +434,14 @@ DOMAIN-SUFFIX,zoom.us,BeBlocked
 
 DOMAIN,cc.tvbs.com.tw,BeBlocked
 DOMAIN,ocsp.int-x3.letsencrypt.org,BeBlocked
-DOMAIN,payments-jp.amazon.com,BeBlocked
-DOMAIN,s3-ap-northeast-1.amazonaws.com,BeBlocked
-DOMAIN,s3-ap-southeast-2.amazonaws.com,BeBlocked
 DOMAIN,search.avira.com,BeBlocked
+DOMAIN,us.weibo.com,BeBlocked
 
-#DOMAIN-KEYWORD,github,BeBlocked
-#DOMAIN-KEYWORD,jav,BeBlocked
-DOMAIN-KEYWORD,pinterest,BeBlocked
-DOMAIN-KEYWORD,porn,BeBlocked
+DOMAIN-KEYWORD,.pinterest.,BeBlocked
+
+DOMAIN-SUFFIX,edu,BeBlocked
+DOMAIN-SUFFIX,gov,BeBlocked
+DOMAIN-SUFFIX,mil,BeBlocked
 
 # (IP Blackhole)
 # > Facebook
@@ -473,6 +497,7 @@ DOMAIN-SUFFIX,telesco.pe,BeBlocked
 DOMAIN-SUFFIX,noxinfluencer.com,BeBlocked
 DOMAIN-SUFFIX,smartmailcloud.com,BeBlocked
 DOMAIN-SUFFIX,weebly.com,BeBlocked
+DOMAIN-SUFFIX,twitter.jp,BeBlocked
 
 # (Region-Restricted Access Denied)
 # ---(Apple)---
@@ -486,23 +511,26 @@ DOMAIN,itunes.apple.com,BeBlocked
 # > Spotlight
 DOMAIN,api-glb-sea.smoot.apple.com,BeBlocked
 # > Look Up
-DOMAIN,lookup-api.apple.com,BeBlocked
 DOMAIN-SUFFIX,smoot.apple.com,BeBlocked
+DOMAIN,lookup-api.apple.com,BeBlocked
 # > Apple Music Web
 DOMAIN,beta.music.apple.com,BeBlocked
 # ------
 # > Others
 DOMAIN-SUFFIX,bing.com,BeBlocked
 DOMAIN-SUFFIX,cccat.io,BeBlocked
+DOMAIN-SUFFIX,dubox.com,BeBlocked
+DOMAIN-SUFFIX,duboxcdn.com,BeBlocked
 DOMAIN-SUFFIX,ifixit.com,BeBlocked
 DOMAIN-SUFFIX,mangakakalot.com,BeBlocked
 DOMAIN-SUFFIX,shopeemobile.com,BeBlocked
 
 # (Network Jitter)
-# > Fix download or update is stuck in App Store,and when change the Apple ID region,the payment information can be selected by none.
-DOMAIN-KEYWORD,buy.itunes.apple.com,BeBlocked
-# DOMAIN-SUFFIX,evernote.com,BeBlocked
+DOMAIN-SUFFIX,cloudcone.com.cn,BeBlocked
 DOMAIN-SUFFIX,inkbunny.net,BeBlocked
 DOMAIN-SUFFIX,metapix.net,BeBlocked
 DOMAIN-SUFFIX,s3.amazonaws.com,BeBlocked
 DOMAIN-SUFFIX,zaobao.com.sg,BeBlocked
+DOMAIN,international-gfe.download.nvidia.com,BeBlocked
+DOMAIN,ocsp.apple.com,BeBlocked
+DOMAIN,store-images.s-microsoft.com,BeBlocked

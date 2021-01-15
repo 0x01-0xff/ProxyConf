@@ -7,6 +7,7 @@ DOMAIN-SUFFIX,gvt0.com,Google
 DOMAIN-SUFFIX,gvt1.com,Google
 DOMAIN-SUFFIX,gvt3.com,Google
 DOMAIN-SUFFIX,xn--ngstr-lra8j.com,Google
+DOMAIN-SUFFIX,ytimg.com,Google
 DOMAIN-KEYWORD,google,Google
 DOMAIN-KEYWORD,blogspot,Google
 # > Google
@@ -54,7 +55,6 @@ DOMAIN-SUFFIX,widevine.com,Google
 DOMAIN-SUFFIX,x.company,Google
 DOMAIN-SUFFIX,youtu.be,Google
 DOMAIN-SUFFIX,yt.be,Google
-DOMAIN-SUFFIX,ytimg.com,Google
 # > YouTube
 USER-AGENT,com.google.ios.youtube*,Google
 USER-AGENT,YouTube*,Google
